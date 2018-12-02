@@ -1,0 +1,611 @@
+/*home page*/
+
+.box 
+{
+	background-color: #D7D7D7
+	color: #fff;
+	text-align: center;
+	margin: 20px;
+}
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: "Helvetica Bold", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background color: #ededed; 
+	background-image:url("file:///C:/Users/Folay/Desktop/folayan_folarin_FIP/folayan_folarin_final_intergrated_project/images/background_pattern.svg");
+}
+
+a:link, a:visited
+{
+	text-decoration: none;
+}
+
+a:hover, a:active
+{
+	text-decoration: none;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.container
+{
+	width: 980px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logoHeader
+{
+	width: 220px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 20px; 
+}
+
+.mainNav
+{
+width: 600px;
+height: 25px;
+margin-top: -45px;
+margin-left: auto;
+}
+
+.mainNav ul
+{
+	list-style-type: none;
+	padding: 0; 
+}
+
+.mainNav ul li
+{
+	font-size: 14px;
+	display: inline;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.mainNav ul li a
+{
+	color: #8EBC8E;
+	padding: 5px;
+}
+
+.mainNav ul li a:hover 
+{
+	padding: 5px;
+	background-color: #ddeff7
+}
+
+.selected
+{
+	padding: 5px 0px 5px 0px;
+	background-color: #ddeff7;
+}
+
+hr
+{
+	margin-top: 40px;
+	width: 90%;
+	height: 3px;
+	background-color: #8EBC8E;
+}
+
+.promo h2
+{
+	margin-top: 90px;
+	color: #141414
+	font-size: 50px;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-right: 500px;
+	
+}
+
+.promo h3
+{
+	color: #141414
+	font-size: 31px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-right: 500px;
+
+}
+
+.promo h3
+{
+	color: #141414
+	font-size: 31px;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 20px;
+	margin-right: 500px;
+	
+}
+
+#promoimg
+{
+	width:400px;
+	margin-left: 550px;
+	margin-top: -260px;
+}
+
+.resource
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.resource p
+{
+
+	margin-top: 30px;
+	line-height: 20px;
+	color: #666;
+	font-size: 12px;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.tops, .bottoms, .shoes, .accessories
+{
+	color: #fff
+	width: 300px;
+}
+
+.resBut
+{
+  display: block;
+  width: 100px;
+  padding: 15px;
+  color: #FFF;
+  background-color: #8EBC8E;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.resBut:hover
+{
+  background-color: #013220;
+}
+
+.mainFooter
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+	background-color: #ccc;
+	justify-content: flex-start;
+	height: 125px;
+}
+
+.logoNav
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.logoFooter
+{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+
+.footerNav
+{
+  width: 380px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.footerNav ul
+{
+  padding: 0;
+  list-style-type: none;
+  width: 500px;
+  margin-left: 0;
+}
+
+.footerNav ul li 
+{ 
+  cursor: pointer;
+  display: inline;
+  margin-right: 25px;
+  font-size: 12px;  
+}
+
+.footerNav ul li a {
+  color: #333;
+}
+
+.footerNav ul li a:hover {
+  color: #8EBC8E;
+}
+
+.copyright
+{
+	height: 25px;
+	margin-left: auto;
+	margin-top: 90px;
+	margin-right: 10px;
+	color: #8EBC8E;
+}
+
+/*contact page*/
+
+#mainContact
+{
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#mainContact h2
+{
+  font-size: 30px;
+  color: #fff;
+  background-color: #8EBC8E;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+  width: 940px;
+}
+
+#contactArea {
+  width: 469px;
+  border-right: solid 1px #CCC;
+  margin-bottom: 30px;
+}
+
+
+#contactText {
+  font-size: 21px;
+  margin-bottom: 30px;
+  width: 340px;
+}
+
+#contactForm{
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments
+{
+  width: 360px;
+  height: 200px;
+}
+
+#submit
+{
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:#8EBC8E;
+  font-size: 14px;
+  border: 1px solid #003471;
+}
+
+#mapArea
+{
+  width: 380px;
+  margin-left: 90px;
+}
+
+
+#mapArea h3
+{
+  font-size: 21px;
+  margin-top: 0;
+  color: #8EBC8E;
+}
+
+#mapArea ul
+{
+  list-style-type: none;
+  padding: 0;
+} 
+
+/*Tops*/
+
+hr
+{
+	margin-bottom: -10px;
+	margin-top: 5px;
+}
+
+#mainTops
+{
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#TeeShirts
+{
+	width: 469;
+	border-right: solid 1px #CCC;
+	margin-bottom: 30px;
+	margin-left: 10px;
+
+}
+
+#shirts h2
+{
+ font-size: 32px;
+ color: #8EBC8E;
+
+}
+
+#shirts h3
+{
+	margin-top: 50px;
+	margin-left: 315px;
+	margin-bottom: 20px; 
+}
+
+#contentarea1
+{
+  margin-top: -350px;
+
+}
+
+#Sweaters
+{
+	margin-left: 10px;
+}
+
+#Sweaters h2
+{
+	font-size: 32px;
+	color: #8EBC8E
+}
+
+#Jackets h3
+{
+	margin-top: 50px;
+	margin-left: 270px;
+	margin-bottom: 20px; 
+}
+
+#contentarea2
+{
+	margin-right: 70px;
+	margin-top: -500px;
+}
+
+/*Bottoms*/
+
+hr
+{
+	margin-bottom: -10px;
+	margin-top: 5px;
+}
+
+#description h2
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 32px;
+	color: #8EBC8E;
+
+}
+
+#bottoms
+{
+  padding-left: 05px;
+  padding-right: 05px;
+  padding-top: 20px;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#bottoms h2
+{
+ text-align: center;
+  font-size: 30px;
+  width: 940px;
+  color: #2073a8;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+
+}
+
+#bottoms hr
+{
+ margin-top: -20px;
+}
+
+#contentarea3
+{
+ margin-left: -25px;
+  padding-top: 20px;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.pants
+{
+  width: 220px;
+  margin-bottom: 40px;
+}
+
+.pants img
+{
+  border: 3px solid #8EBC8E;
+}
+
+.pants h3
+{
+  text-align: center;
+  border-top: dashed 1px #666;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  color: #8EBC83;
+  font-size: 18px;
+}
+
+/*SHOES*/
+
+#SHOES
+{
+  padding-left: 05px;
+  padding-right: 05px;
+  padding-top: 10px;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#SHOES h2
+{
+
+ text-align: center;
+  font-size: 30px;
+  width: 940px;
+  color: #8EBC8E;
+  margin-bottom: 20px;
+  padding: 8px 0px 8px 5px;
+}
+
+#SHOES img
+{
+	border: 3px solid #8ebc8e;
+}
+
+#SHOES hr
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#promoshoes
+{
+
+ 
+  padding-left: 05px;
+  padding-right: 05px;
+  padding-top: 20px;
+  width: 940px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#promoshoes h2
+{
+
+ text-align: center;
+  font-size: 30px;
+  width: 940px;
+  color: #8ebc8e;
+  margin-bottom: 40px;
+  padding: 8px 0px 8px 5px;
+
+}
+
+.tops
+{
+	margin-right: 130px;
+	width: 220px;
+	margin-bottom: 40px;
+}
+
+.tops h2
+{
+	margin-left: -300px;
+}
+
+.tops h3
+{
+	margin-left: 50px;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+ 	padding-top: 10px;
+ 	color: #666;
+  	font-size: 18px;
+}
+
+.tops img
+{
+	border: 3px solid #8EBC8E;
+}
+
