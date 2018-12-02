@@ -177,7 +177,7 @@ hr
 	text-align: center;
 }
 
-.tops, .bottoms, .shoes, .accessories
+.top, .bottoms, .shoes, .accessories
 {
 	color: #fff
 	width: 300px;
@@ -194,6 +194,7 @@ hr
   margin-top: 20px;
   font-size: 14px;
   font-weight: bold;
+  justify-content: space-evenly;
 }
 
 .resBut:hover
